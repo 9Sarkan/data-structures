@@ -76,8 +76,8 @@ class UnorderedList:
 
     def show_list(self):
         current = self.head
-        lst = []
+        data_lst = []
         while None != current:
-            lst.append(current.data)
+            data_lst.append(current.data)
             current = current.next
-        return lst
+        return data_ lst
